@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*id = # (só um  elemento)
+  class = . (mais de um elemeto)
+*/
+body{
+    background-color: #d4eec8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #607556;
+}
+#main{
+    text-align: center;
+    color: #2D3629;
+    background-color: #aecaa1;
+}
+h2{
+    color: #63755A;
+}
+.basic{
+    color: green;
+}
+.medium{
+    color: rgb(199, 199, 21);
+}
+.advanced{
+    color: red;
+}
+.contrast{
+    background-color: rgba(227, 227, 78, 0.65);
+}

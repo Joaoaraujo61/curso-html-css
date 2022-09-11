@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Mídias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Abra a página em diferentes dispositivos ou aumente e diminua a janela</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="imagem flexível">
+    </picture> <!--também pode ser usado a tag img-->
+    <h1>Reproduzindo áudio</h1>
+    <p>vamos aprender a colocar áudio em HTML</p>
+    <audio preload="metadata" autoplay controls loop >
+        <source src="midia/onepieceost.mp3" type="audio/mpeg"> <!--Bom que tenha um arquivo mp3, um wav e outro ogg-->
+        <p>Infelizmente seu navegador não suporta o áudio, quer baixar?</p>
+        <p><a href="midia/onepieceost.mp3" download="onepieceost.mp3" type="audio/mpeg">Clique Aqui</a></p>
+    </audio>
+</body>
+</html>

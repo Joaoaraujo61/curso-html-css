@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --cor0: rgb(132, 225, 173); /*VARIÁVEIS*/
+    --cor1: rgb(26, 92, 56);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor0);
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to top, var(--cor1), rgb(60, 217, 131));
+    padding: 10px 0px 0px 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 190px;
+    margin: 0px;
+    text-align: center;
+}
+header > h1{
+    font-size: 190%;
+    font-family: Bebas Neue;
+    margin-top: 5px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.474);
+}
+header > p{
+    font-size: 80%;
+    line-height: 30px;
+}
+
+nav{
+    text-align: left;
+    font-size: 80%;
+    font-weight: bold;
+}
+nav :hover{
+    background-color: rgb(40, 145, 85);
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-left: 8px;
+    padding: 8px;
+    padding-bottom: 15px;
+    transition-duration: 0.5s;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+#main, #extra{
+    padding: 15px;
+    max-width: 800px;
+    min-width: 320px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.519);
+}
+#extra{
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#subextra{
+    padding: 10px;
+    background-color: rgba(132, 225, 172, 0.504);
+    border-radius: 0px 0px 20px 20px;
+}
+#list{
+    columns: 2;
+    font-weight: bold;
+}
+#list li{
+    list-style-type: '\2713\00a0\00a0';
+}
+
+footer{
+    text-align: center;
+    background-color: var(--cor1);
+    color: white;
+}
+
+h2, h3{
+    font-family: idroid;
+    color: var(--cor1);
+    padding-left: 10px;
+}
+h3{
+    background-image: linear-gradient(to right, rgba(60, 217, 131, 0.601), transparent);
+}
+h4{
+    display: block;
+    background-color: rgb(56, 203, 120);
+    padding: 15px;
+    margin-bottom: 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+#radius{
+    border-radius: 50px 50px 20px 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#imgbugd{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+#iframe{
+    background-color: var(--cor1);
+    padding: 25px;
+    margin: auto;
+    max-width: 780px;
+    /*min-width: 300px;*/
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.519);
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.link{
+    color: rgb(26, 92, 56);
+    font-weight: bold;
+    background-color: rgba(56, 203, 120, 0.352);
+    text-decoration: none; 
+    padding: 3px;
+}
+.link::after{
+    content: '\1F517';
+}
+.link:hover{
+    text-decoration: underline;
+}
+picture, img{
+    display: block;
+    margin: auto;
+}
