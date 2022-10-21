@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{
+    
+}
+header{
+    margin: -61px -8px -50px -8px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+footer > span{
+    font-weight: bold;
+}
+main{
+    text-align: left;
+    font-size: 180%;
+}
+    
