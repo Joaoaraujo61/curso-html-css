@@ -1,13 +1,53 @@
 @charset "UTF-8";
-body{
-    
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;/*viewport height*/
+    background-color: darkgray;
 }
 header{
-    margin: -61px -8px -50px -8px;
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 200%;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > h2{
+    padding-bottom: 50px;
+}
+main{
+    text-align: left;
+    font-size: 180%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;/*espaçamento emtre as linhas*/
+    padding-left: 30px;
+}
+section.image > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.257);
+}
+section.normal{
+    background-color: white;
+    color: rgb(0, 0, 0)
+}
+section.image{
+    background-color: rgb(72, 72, 72);
+    color: white;
 }
 footer{
     background-color: black;
@@ -16,11 +56,6 @@ footer{
     text-align: center;
     padding: 10px;
 }
-footer > span{
-    font-weight: bold;
-}
-main{
-    text-align: left;
-    font-size: 180%;
-}
+
+
     
