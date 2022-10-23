@@ -43,7 +43,7 @@ section{
     line-height: 2em;/*espaçamento emtre as linhas*/
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 3.6vw;
+    font-size: 3.9vw;
 }
 section.image > p{
     display: inline-block;
