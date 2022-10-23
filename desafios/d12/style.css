@@ -55,7 +55,7 @@ section.image > p{
 }
 section.normal{
     background-color: white;
-    padding: 5px;
+    /*padding: 5px;*/
     color: rgb(0, 0, 0)
 }
 section.image{
@@ -71,11 +71,12 @@ section#img01{
 }
 section#img02{
     background-image: url(imagens/background002.jpg);
+    background-position: right bottom;
 }
 footer{
     background-color: black;
     color: white;
-    font-size: 2vw;
+    font-size: 2.3vw;
     text-align: center;
     padding: 10px;
 }
