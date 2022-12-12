@@ -11,7 +11,7 @@
         }
         table{
             border-collapse: collapse;
-            width: 500px;
+            max-width: 500px;
         }
         td, th{
             border: 1px solid black;
@@ -24,6 +24,12 @@
         .number{
             text-align: right;
         }
+        caption{
+            font-size: 20pt;
+            padding: 5px;
+            color: rgb(67, 66, 66);
+            background-color: rgb(217, 214, 214);
+        }
     </style>
 </head>
 <body>
@@ -31,6 +37,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -39,10 +46,11 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th><!--escopo coluna, dados referentes ao titulo -th- estão na mesma coluna-->
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -157,7 +165,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th><!--escope de linha(dados referente a titulo -th- estão na mesma linha)-->
                 <td class="number"><strong>214 000 000</strong></td>
             </tr>
         </tfoot>
