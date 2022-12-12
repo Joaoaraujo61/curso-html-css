@@ -11,7 +11,7 @@
         }
         table{
             border-collapse: collapse;
-            max-width: 500px;
+            width: 450px;
         }
         td, th{
             border: 1px solid black;
@@ -20,6 +20,9 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+        tbody > tr:nth-child(odd){ /*impar ou 2n-1*/
+            background-color: lightgray;
         }
         .number{
             text-align: right;
@@ -50,7 +53,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th><!--escopo coluna, dados referentes ao titulo -th- estão na mesma coluna-->
-                <th scope="col">População</th>
+                <th scope="col" style="width: 50px;" >População</th>
             </tr>
         </thead>
         <tbody>
