@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <p>
+            <label for="idn1">Número 1: </label>
+            <input type="text" name="n1" id="idn1" oninput="idsoma.innerHTML = Number(idn1.value) + Number(idn2.value)">
+        </p>
+        <p>
+            <label for="idn2">Número 2: </label>
+            <input type="text" name="n2" id="idn2" oninput="idsoma.innerHTML = Number(idn1.value) + Number(idn2.value)">
+        </p>
+        <p>
+            <label for="idsoma">Soma: </label>
+            <output name="soma" id="idsoma">0</output>
+        </p>
+        <p>
+            <input type="button" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
