@@ -21,8 +21,22 @@ header > h1{
     text-align: center;
 }
 
-menu{
+#menu{
+    background-color: rgb(48, 48, 48);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;/*quando o cursor estiver emcima, ao inves da setinha do mouse, fica a maozinha como se fosse um link*/
+}
+
+#menu:hover{
+    color: black;
+    background-color: white;
+}
+
+menu{
+    display: none;
 }
 
 menu > ul{
